@@ -43,11 +43,11 @@ When you use Docker, you are creating and using images, containers, networks, vo
 
       1. Images. 
       
-      An image is a read-only template with instructions for creating a Docker container. 
+An image is a read-only template with instructions for creating a Docker container. 
       
       2. Containers. 
       
-      A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
+A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
    
 ## Installing Docker
 
