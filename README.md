@@ -19,4 +19,4 @@ The following lists was extracted from docker oficial documentation https://docs
 4. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface
 5. Another Docker client is Docker Compose, that lets you work with applications consisting of a set of containers
 
-!(https://docs.docker.com/assets/images/architecture.svg)
+![image](https://docs.docker.com/assets/images/architecture.svg)
