@@ -38,9 +38,7 @@ The following lists and images were extracted from docker oficial documentation 
 When you use the docker pull or docker run commands, Docker pulls the required images from your configured registry. When you use the docker push command, Docker pushes your image to your configured registry.
 
 4. Docker objects
-
 When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects. This section is a brief overview of some of those objects.
-
    1. sadf
    2. sdf
    3. asdf
