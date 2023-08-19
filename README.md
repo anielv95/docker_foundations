@@ -73,7 +73,7 @@ And I had:
 
       failed to start daemon: Devices cgroup isn't mounted
 
-In Docker forum I found that the problem was because I was missing the `cgroupfs-mount`package so I ran 
+In Docker forum (https://forums.docker.com/t/devices-cgroup-isnt-mounted/29279) I found that the problem was because I was missing the `cgroupfs-mount` package so I ran 
 
       sudo apt-get install cgroupfs-mount
 
