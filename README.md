@@ -41,14 +41,18 @@ When you use the docker pull or docker run commands, Docker pulls the required i
 
 When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects. This section is a brief overview of some of those objects.
 
-      1. Images. 
+   1. Images. 
       
 An image is a read-only template with instructions for creating a Docker container. 
       
-      2. Containers. 
+   2. Containers. 
       
 A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
    
 ## Installing Docker
 
 https://docs.docker.com/get-docker/
+
+I installed docker engine in a linux virtual machine, my guest Operating System is AntiX 22 and I chose to install it from a list of packages https://docs.docker.com/engine/install/debian/#install-from-a-package. Following that path I needed to know what is my OS architecture so the next command was executed.
+
+   dpkg --print-architecture
