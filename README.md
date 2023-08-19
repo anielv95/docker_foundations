@@ -62,5 +62,28 @@ When I finished to install the packages I executed the next
       sudo docker run hello-world
 
 But the following error was showed
-`docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.
-See 'docker run --help'.`
+
+      docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?. See 'docker run --help'.
+
+Then I executed:
+
+      sudo dockerd
+
+And I had:
+
+      failed to start daemon: Devices cgroup isn't mounted
+
+In Docker forum I found that the problem was because I was missing the `cgroupfs-mount`package so I ran 
+
+      sudo apt-get install cgroupfs-mount
+
+Then I restarted the Docker service with
+
+      sudo service docker restart
+
+and finally the next line was executed successfully 
+
+      sudo docker run hello-world
+      
+
+
