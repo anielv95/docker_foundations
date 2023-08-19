@@ -55,4 +55,4 @@ https://docs.docker.com/get-docker/
 
 I installed docker engine in a linux virtual machine, my guest Operating System is AntiX 22 and I chose to install it from a list of packages https://docs.docker.com/engine/install/debian/#install-from-a-package. Following that path I needed to know what is my OS architecture so the next command was executed.
 
-   dpkg --print-architecture
+      dpkg --print-architecture
