@@ -57,6 +57,15 @@ I installed docker engine in a linux virtual machine, my guest Operating System 
 
       dpkg --print-architecture
 
+The next command is to know the os info in your linux machine
+
+      cat /etc/*release
+
+I found that I didn't have libsystemd0 package so I ran:
+
+      sudo apt-get update
+      sudo apt-get install libsystemd0
+
 When I finished to install the packages I executed the next
 
       sudo docker run hello-world
@@ -84,6 +93,7 @@ Then I restarted the Docker service with
 and finally the next line was executed successfully 
 
       sudo docker run hello-world
-      
 
+# Useful extensions to work in a container interactively in Visual Studio Code:
 
+1. Remote - Containers ( Useful video: https://www.youtube.com/watch?v=cJbvcH0JNGA)
