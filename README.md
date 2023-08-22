@@ -94,6 +94,8 @@ and finally the next line was executed successfully
 
       sudo docker run hello-world
 
-# Useful extensions to work in a container interactively in Visual Studio Code:
+# Useful extensions 
+
+## Working interactively inside a container in Visual Studio Code:
 
 1. Remote - Containers ( Useful video: https://www.youtube.com/watch?v=cJbvcH0JNGA)
